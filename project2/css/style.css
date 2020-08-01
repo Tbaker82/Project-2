@@ -1,0 +1,199 @@
+
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	font-family: Oswald, sans-serif;
+}
+
+header {
+ 	background: lightgrey;
+ 	margin: 0 auto;
+ 	padding: 20px;
+ 	width: 80%;
+}
+
+ul li {
+	list-style: none;
+	background: white;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+ul {
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color:darkgrey;
+}
+
+a:active {
+	color:darkslategrey;
+}
+
+.profile-img {
+	width: 75%;
+}
+
+.portfolio-head {
+	margin: 60px 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Merriweather, serif;
+}
+
+section {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+img {
+	width:100%;
+}
+
+footer {
+	background: lightgrey;
+ 	margin: 0 auto;
+ 	padding: 20px 5px;
+ 	width: 80%;
+}
+
+
+.footer-link {
+	margin-left: 15%;
+}
+
+.footer-p {
+	margin-bottom: 50px;
+
+}
+
+span {
+	border-top: solid 1px grey;
+	padding-top: 15px;
+}
+
+.footer-nav {
+	display: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+
+	header {
+		width: 90%;
+		height: 400px;
+	}
+
+	header p {
+		font-size: 1.15em;
+	}
+
+	ul li {
+		display: inline-block;
+		background: none;
+		margin: 0 25px 30px 25px;
+	}
+
+	.profile-img {
+		width: 40%;
+		float: right;
+		margin-left: 20px;
+	}
+
+	
+
+	.marketing,
+	.travel,
+	.photo {
+		width: 45%;
+		float: left;
+	}
+
+	.search,
+	.map,
+	.calculator {
+		width: 45%;
+		float: right;
+	}
+
+	footer {
+		text-align: center;
+		height: 400px;
+	}
+
+	.footer-p {
+		padding: 0 75px;
+	}
+
+	.footer-link {
+		display: none;
+	}
+
+	.footer-nav {
+		display: inline-block;
+		float: right;
+		font-size: .7em;
+	}
+
+	span {
+		float: left;
+		border: none;
+	}
+
+	.email {
+		border-bottom: solid 1px grey;
+		padding-bottom: 50px;
+	}
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+
+@media (min-width: 1024px) {
+
+	header {
+		height: 500px;
+		width: 90%;
+	}
+
+	header p {
+		float: left;
+	}
+
+	h1 {
+		float: left;
+		clear: right;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
