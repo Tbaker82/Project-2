@@ -14,7 +14,7 @@ header {
  	background: lightgrey;
  	margin: 0 auto;
  	padding: 20px;
- 	width: 80%;
+ 	width: 100%;
 }
 
 ul li {
@@ -76,7 +76,7 @@ footer {
 	background: lightgrey;
  	margin: 0 auto;
  	padding: 20px 5px;
- 	width: 80%;
+ 	width: 100%;
 }
 
 
